@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	overflow: hidden;
+	background-color: black;
+}
+body{
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-family: 'Cinzel', serif;
+}
+#logo{
+	width: 400px;
+	transition: 0.3s;
+	
+}
+#logo:hover{
+	width: 500px;
+}
+.container{
+	height: 100vh;
+	padding-top: 20px;
+	
+}
+#section1{
+	background: url("img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+	opacity: 1.0;
+	-webkit-transition: background 1.5s linear;
+	-moz-transition: background 1.5s linear;
+	-o-transition: background 1.5s linear;
+	-ms-transition: background 1.5s linear;
+	transition: background 1.5s linear;
+}
+#section2{
+	background: url("img/background-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+	opacity: 1.0;
+	-webkit-transition: background 1.5s linear;
+	-moz-transition: background 1.5s linear;
+	-o-transition: background 1.5s linear;
+	-ms-transition: background 1.5s linear;
+	transition: background 1.5s linear;
+}#section3{
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+}
+#menu{
+	text-align: center;
+	overflow: hidden;
+  	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+	font-size: 20px;
+	padding: 40px 0;
+	
+}
+#menu a{
+	color: white;
+	margin: 20px;
+	text-decoration: none;
+	font-family: 'Cinzel Decorative', serif;
+	font-weight: 400;
+	transition:0.5s;
+}
+#menu a:hover{
+	color: #EF1B28;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.column{
+ 	float: left;
+ 	width: 40%;
+	margin: 0px 10px;
+	margin: auto;
+}
+#develop{
+	width: 100%;
+	margin: auto;
+}
+.row:after {
+ 	content: "";
+ 	display: table;
+ 	clear: both;
+}
+.row{
+	width: 60%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+
+
